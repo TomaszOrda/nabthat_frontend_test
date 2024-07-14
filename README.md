@@ -4,11 +4,11 @@
 
 Zadanie wykonałem używając frameworka Angular. Nie miałem wcześniej żadnego doświadczenia z tym frameworkiem, więc części kodu mogą nie spełniać najwyższych standardów. Wykonane zadania:
 
-### CEL
+## CEL
 
 Wykonałem wszystkie główne cele i spełniłem wszystkie warunki.
 
-### ADDITIONAL GOALS
+## CELE DODATKOWE
 
 Wykonałem większość dodatkowych zadań. Pozostałe nie zostały ukończone z powodu małego doświadczenia i braku czasu.
 
@@ -31,11 +31,11 @@ Wykonałem większość dodatkowych zadań. Pozostałe nie zostały ukończone z
 
 The recruitment task was done in Angular. I have not had any experience with this framework before, in effect certain parts of the code might not be up to the highest standard. Completion of the tasks follows:
 
-### MAIN GOAL
+## MAIN GOAL
 
 I have finished all the main tasks and followed all the criteria.
 
-### ADDITIONAL GOALS
+## ADDITIONAL GOALS
 
 I have finished most of the additional goals. Remaining one were not finished due to lack of experience and time.
 

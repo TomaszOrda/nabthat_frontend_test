@@ -1,59 +1,55 @@
+[English version below](#recruitment-task)
+
 # Zadanie rekrutacyjne
 
-Witaj,
-
-Prosimy Ciê o wykonanie poni¿szego zadania najlepiej jak tylko umiesz. Pozwoli to nam lepiej oceniæ Twoje umiejêtnoœci :)
-
 ## OPIS
-W katalogu znajdziesz projekt graficzny. Prosimy Ciê o jego pociêcie oraz napisanie funkcjonalnoœci dla poszczególnych elementów. Swoje prace rób jako fork tego repozytorium.
-
+Zadanie wykonaÅ‚em uÅ¼ywajÄ…c frameworka Angular. Nie miaÅ‚em wczeÅ›niej Å¼adnego doÅ›wiadczenia z tym frameworkiem, wiÄ™c czÄ™Å›ci kodu mogÄ… nie speÅ‚niaÄ‡ najwyÅ¼szych standardÃ³w. Wykonane zadania:
 
 ### CEL
 
-- Pociêta strona ma wype³niaæ ca³e okno przegl¹darki (nie zamykaæ contentu w kontenerze o sta³ej szerokoœci). Przy reponsywnoœci mo¿esz zastosowaæ dowolne breakpointy, samemu uznaj jak bêdzie najlepiej.
+WykonaÅ‚em wszystkie gÅ‚Ã³wne cele i speÅ‚niÅ‚em wszystkie warunki.
 
-- Header powinien byæ na sta³e przyklejony do topu, Logo HTML5 w headerze powinno linkowaæ do '/' .  
+### ADDITIONAL GOALS
 
-- Stopka strony w przypadku ma³ej iloœci treœci w contencie powinna i tak byæ na samym dole strony a nie 'doklejaæ' siê pod contentem.
+WykonaÅ‚em wiÄ™kszoÅ›Ä‡ dodatkowych zadaÅ„. PozostaÅ‚e nie zostaÅ‚y ukoÅ„czone z powodu maÅ‚ego doÅ›wiadczenia i braku czasu.
 
-- W bloku pierwszym s¹ radiobuttony, ich wybór a nastêpnie klikniêcie przycisku w bloku drugim wykona akcjê podmiany lub doklejenia tekstu w bloku ostatnim. Treœci które maj¹ zostaæ u¿yte nale¿y pobraæ z JSONa (szczegó³y ni¿ej). Opcja pierwsza wybierze zawsze treœæ pierwsz¹, opcja druga drug¹ a opcja losowa dowoln¹ z pozosta³ych. Ka¿da osobna treœæ w ostatnim bloku powinna byæ objêta tagiem <article>. Doklejaj¹c treœæ nale¿y unikn¹æ powielania ju¿ istniej¹cej treœci (w przypadku u¿ycia opcji losowej nale¿y wylosowaæ kolejn¹ jeszcze nie u¿yt¹ treœæ). 
+- UÅ¼yÅ‚em frameworka Angular.
+- Nie doÅ‚Ä…czyÅ‚em Å¼adnych plikÃ³w graficznych â€” jednakÅ¼e w projekcie znajduje siÄ™ svg w formie tekstowej, prezentujÄ…ce logo HTML5.
+- Ramka CSS IS AWESOME obraca siÄ™ po najechaniu kursorem.
+- âŒ Nie zaimplementowaÅ‚em BEM.
+- âŒ Nie zaimplementowaÅ‚em a11y.
+- I think my choice of CSS units is on point.
+- âŒ Strona nie zostaÅ‚a zrobiona mobile first.
+- Paragrafy w ostatnim bloku sÄ… sortowane alfabetycznie.
+- Alerty informujÄ… o niemoÅ¼noÅ›ci doklejenia wybranego paragrafu.
+- Przycisk ("PokaÅ¼") nie uÅ¼ywa JavaScript.
+- âŒ I have not yet hosted my site on heroku. <!--[As remarked above, I have hosted my site on heroku.]-->
+- âŒ Nie zaimplementowaÅ‚em localStorage.
 
-- Button 'poka¿' w footerze po klikniêciu pokazuje ramkê (wysuwa j¹ spod footera) z 2 klikalnymi opcjami. Pierwsza przywraca stronê do pocz¹tkowych ustawieñ, druga w headerze dokleja Twoje imiê i nazwisko.
+<br><br>
 
+# Recruitment task
 
-### PLIK JSON
-Zbudowaæ plik z tablic¹ przynajmniej 6 elementów zawieraj¹cych dowoln¹ treœæ. Wolno w JSONie trzymaæ dodatkowe dane je¿eli uproœci to wykonanie zadania.
+The recruitment task was done in Angular. I have not had any experience with this framework before, in effect certain parts of the code might not be up to the highest standard. Completion of the tasks follows:
 
+### MAIN GOAL
 
-### WARUNKI
-- Nie u¿ywaæ bootstrapa/tailwinda ani innych podobnych frameworków.
-- Zastosowaæ SCSS.
-- Poni¿ej 960px wed³ug uznania dokonaæ zmian w projekcie by jak najlepiej przedstawiæ stronê (najlepiej wykorzystaæ przyk³ad projektu mobilnego).
+I have finished all the main tasks and followed all the criteria.
 
+### ADDITIONAL GOALS
 
-### DODATKOWE PLUSY
-- Osadzenie ca³ego zadania w jakimœ JSowym frameworku (najlepiej Angular).
-- Brak plików graficznych w koñcowym projekcie (brak plików typu jpg, gif, png, svg).
-- CSS IS AWESOME w footerze - po najechaniu myszk¹ ramka (bez tekstu) powinna wykonaæ animowany obrót.
-- Zastosowanie BEM.
-- Spe³nianie zasad a11y.
-- Logiczne wykorzystanie jednostek rem, em, vh, vw (w efekcie jak najmniejsze u¿ycie jednostki px) - w taki sposób by w efekcie responsywnoœæ spe³niona zosta³a jak najmniejsz¹ iloœci¹ kodu.
-- Mobile first.
-- Doklejaj¹c treœæ sprawiæ by w ostatnim bloku treœci by³y posortowane alfabetycznie.
-- Przy doklejaniu treœci w przypadku niemo¿liwoœci spe³nienia warunku by by³a unikalna wyœwietliæ stosowny komunikat (np. alert/dialog/modal).
-- Button w footerze ("poka¿") wysuwaj¹cy ramkê bez u¿ycia JSa.
-- Rezultat prac wrzuciæ do podgl¹du na jak¹œ darmow¹ platformê (np. netlify/heroku).
+I have finished most of the additional goals. Remaining one were not finished due to lack of experience and time.
 
+- Use of Angular.
+- No image files â€” however there is svg used for HTML5 logo in a form of text.
+- CSS IS AWESOME frame rotates on hover.
+- âŒ I have not used BEM.
+- âŒ I have not used a11y.
+- I think my choice of CSS units is on point.
+- âŒ I have not designed my page mobile first.
+- Paragraphs in the last block are sorted alphabetically.
+- There are alerts in case of inability to append a paragraph.
+- Button ("PokaÅ¼") does not use javascript.
+- âŒ I have not yet hosted my site on heroku. <!--[As remarked above, I have hosted my site on heroku.]-->
+- âŒ I have not used localStorage.
 
-### ZADANIE NA 6 :)
-- Wykorzystaæ localStorage do za³adowania treœci z pliku i ich póŸniejszego przechowywania oraz napisaæ dodatkow¹ funkcjonalnoœæ pozwalaj¹c¹ na zarz¹dzanie nimi (dodawanie/edycja/usuwanie).
-
-
-## UWAGI
-Projekt nie musi byæ 'pixel perfect'. Z uwagi na brak pliku Ÿród³owego a jedynie jpg nale¿y wymiary samemu zmierzyæ. Ale przyk³adowo je¿eli jakiœ element po zmierzeniu wydaje siê ¿e ma 139px to dobr¹ praktyk¹ bêdzie zaokr¹gliæ go do 140px. U¿yty w projekcie font to OpenSans.
-
-
-## WYSY£KA PRACY
-Nale¿y przes³aæ link do swojego repozytorium z rozwi¹zaniem. Dodatkowo wrzuæ dokument tekstowy z list¹ rzeczy których nie uda³o siê wykonaæ z celów g³ównych oraz listê rzeczy które zrobiono dodatkowo.
-
-POWODZENIA :)

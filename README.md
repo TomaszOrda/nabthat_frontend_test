@@ -1,5 +1,7 @@
 [English version below](#recruitment-task)
+
 [Preview on Vercel](https://nabthat-frontend-test.vercel.app)
+
 # Zadanie rekrutacyjne
 
 Zadanie wykonałem używając frameworka Angular. Nie miałem wcześniej żadnego doświadczenia z tym frameworkiem, więc części kodu mogą nie spełniać najwyższych standardów. Wykonane zadania:

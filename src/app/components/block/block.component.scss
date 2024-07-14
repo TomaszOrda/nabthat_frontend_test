@@ -1,0 +1,33 @@
+:host {
+    display: static;
+    min-width: 0;
+
+    text-align: center;
+    color: #a2a8b6;
+    max-width: 33vw;
+
+    @media (max-width: 960px) {
+        max-width: initial;
+    }
+}
+
+
+div,
+article {
+    min-width: min-content;
+}
+
+p {
+    width: 100%;
+    align-self: center;
+}
+
+h2 {
+    margin-bottom: 2em;
+    font-size: 1.2rem;
+    color: white;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

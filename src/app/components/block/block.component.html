@@ -1,0 +1,3 @@
+<h2>{{blockTitle}}</h2>
+<div *ngIf="!textBlock"><ng-content ></ng-content></div>
+<article *ngIf="textBlock" [innerHTML]="contentString"></article>

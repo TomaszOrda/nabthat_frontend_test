@@ -1,0 +1,16 @@
+<input type="checkbox" id="toggleMenu" >
+<label for="toggleMenu">
+    POKAŻ
+    <span class="caretUp"></span>
+</label>
+
+<div id="menu">
+    <span (click)="reloadPage()">
+        <span class="caretRight"></span>
+        ZRESETUJ USTAWIENIA
+    </span><br>
+    <span (click)="showPersonalData()">
+        <span class="caretRight"></span>
+        POKAŻ DANE OSOBOWE
+    </span>
+</div>

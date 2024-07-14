@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zadanie rekrutacyjne — Tomasz Orda</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="padding200" style="top:0"></div>
+  <main>
+    <header app-header></header>
+    <app-h1>Nagłówek H1</app-h1>
+    <div id="content">
+      <app-block blockTitle="BLOK PIERWSZY">
+        <div class="radio-group">
+          <label>
+            <input type="radio" name="option" value="option1" (change)="setOption('first')">
+            Opcja pierwsza
+          </label>
+          <label>
+            <input type="radio" name="option" value="option2" (change)="setOption('second')">
+            Opcja druga
+          </label>
+          <label>
+            <input type="radio" name="option" value="option3" (change)="setOption('random')">
+            Opcja losowa
+          </label>
+        </div>
+      </app-block>
+      <app-block blockTitle="BLOK DRUGI">
+        <button (click)="replace()">ZASTĄP</button>
+        <button (click)="append()">DOKLEJ</button>
+      </app-block>
+      <app-block blockTitle="BLOK Z DŁUGĄ NAZWĄ KTÓRA SAMA SIĘ PRZYTNIE" [textBlock]=true>
+      </app-block>
+    </div>
+    <footer app-footer></footer>
+    <div class="padding200" style="bottom:0"></div>
+  </main>
+</body>
+
+</html>

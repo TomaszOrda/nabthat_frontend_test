@@ -1,0 +1,106 @@
+:host {
+    min-width: 270px;
+    height: 50px;
+    width: 270px;
+    margin: 20px;
+
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 400;
+
+    background-color: inherit;
+
+    & input {
+      display: none;
+      appearance: none;
+    }
+}
+
+label {
+    display: block;
+    border: solid 1px #2c2d32;
+    color: #a2a8b6;
+    border-radius: 3px;
+
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+        color: white;
+        border-color: white;
+    }
+
+    &:hover .caretUp {
+        border-color: white;
+    }
+}
+
+input[type="checkbox"]:checked+label+#menu {
+    height: 90px;
+}
+
+#menu {
+    display: hidden;
+    position: relative;
+    height: 0px;
+    width: 100%;
+    bottom: 100px;
+    z-index: 1;
+    overflow: hidden;
+
+    font-weight: bold;
+    line-height: 50px;
+    color: #15161a;
+    text-align: left;
+    line-height: 30px;
+
+    background-color: white;
+    border: 2px 0 2px px solid #15161a;
+    border-radius: 2px 2px 0 0;
+    box-shadow: 0 0 25px black;
+
+    transform: translate(0, -100%);
+
+    transition: height 0.75s ease-out;
+
+    >span {
+        margin-left: 25px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 15px;
+    }
+
+    &>span:hover,
+    &>span:hover .caretRight {
+        color: orange;
+        border-color: orange;
+    }
+}
+
+.caretUp {
+    display: inline-block;
+    width: 0.3em;
+    height: 0.3em;
+    margin-left: 10px;
+
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+    border-color: rgb(162, 168, 182);
+    border-radius: 1px;
+
+    transform: rotate(-45deg);
+}
+
+.caretRight {
+    @extend .caretUp;
+    border-color: black;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}

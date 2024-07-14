@@ -1,0 +1,45 @@
+:host {
+  z-index: 1;
+  background-color: #0b0c10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140px;
+  font-size: 2em;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 960px) {
+    height: 105px;
+  }
+}
+
+a {
+  height: 100%;
+}
+
+app-html5-logo {
+  height: 70%;
+  aspect-ratio: 1/1;
+  margin-top: calc(100%*15/70);
+  margin-left: 40%;
+
+  @media (max-width: 490px) {
+    display: none;
+  }
+}
+
+div {
+  margin-right: 5%;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayInitial {
+  display: initial;
+}

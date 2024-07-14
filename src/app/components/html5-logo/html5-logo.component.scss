@@ -1,0 +1,30 @@
+:host {
+    display: block;
+}
+
+#circle {
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    border-radius: 100%;
+    text-align: center;
+    
+    &:hover {
+        background-color: #e88401;
+        
+        & path:nth-child(4) {
+            fill: #e88401;
+        }
+        & path:nth-child(5) {
+            fill: #e88401;
+        }
+    }
+}
+
+svg {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 20%;
+    width: 70%;
+}

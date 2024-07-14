@@ -1,0 +1,27 @@
+.padding200{
+    height: 200px;
+    width:100%;
+}
+
+#content{
+    padding: 0 -60px;
+    margin: 0 60px;
+    display:flex;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+    
+    // #content app-block {
+    //     flex: 0 0 10%; /* Each item takes up 50% of the container's width */
+    //     box-sizing: border-box; /* Ensures padding and border are included in the width */
+
+    // }
+}
+
+@media (max-width: 960px) {
+    #content{
+        flex-wrap: wrap;
+    }
+    button {
+        display:block;
+    }
+}

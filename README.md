@@ -1,5 +1,5 @@
 [English version below](#recruitment-task)
-
+[Preview on Vercel](https://nabthat-frontend-test.vercel.app)
 # Zadanie rekrutacyjne
 
 Zadanie wykonałem używając frameworka Angular. Nie miałem wcześniej żadnego doświadczenia z tym frameworkiem, więc części kodu mogą nie spełniać najwyższych standardów. Wykonane zadania:
@@ -22,7 +22,7 @@ Wykonałem większość dodatkowych zadań. Pozostałe nie zostały ukończone z
 - Paragrafy w ostatnim bloku są sortowane alfabetycznie.
 - Alerty informują o niemożności doklejenia wybranego paragrafu.
 - Przycisk ("Pokaż") nie używa JavaScript.
-- ❌ I have not yet hosted my site on heroku. <!--[As remarked above, I have hosted my site on heroku.]-->
+- ❌ Wrzuciłem podgląd projektu na platformę Vercel.
 - ❌ Nie zaimplementowałem localStorage.
 
 <br><br>
@@ -49,5 +49,5 @@ I have finished most of the additional goals. Remaining one were not finished du
 - Paragraphs in the last block are sorted alphabetically.
 - There are alerts in case of inability to append a paragraph.
 - Button ("Pokaż") does not use javascript.
-- ❌ I have not yet hosted my site on heroku. <!--[As remarked above, I have hosted my site on heroku.]-->
+- I have hosted my site on Vercel.
 - ❌ I have not used localStorage.

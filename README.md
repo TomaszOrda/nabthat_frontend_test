@@ -2,7 +2,6 @@
 
 # Zadanie rekrutacyjne
 
-## OPIS
 Zadanie wykonałem używając frameworka Angular. Nie miałem wcześniej żadnego doświadczenia z tym frameworkiem, więc części kodu mogą nie spełniać najwyższych standardów. Wykonane zadania:
 
 ### CEL
